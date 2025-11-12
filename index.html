@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <!-- google font & normalize files -->
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <!--my style file -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!--google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=Harmattan:wght@400;500;600;700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Story+Script&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+</head>
+    <body>
+        <section class="heading hidden">
+            <div class="container">
+                <a href="#" class="logo">Hajer</a>
+                <i class="fas fa-bars toggle-menu"></i>
+                <ul>
+                    <li><a href="#home" style="--l:1" class="active">Home</a></li>
+                    <li><a href="#about" style="--l:2">About</a></li>
+                    <li><a href="#services" style="--l:3">Services</a></li>
+                    <li><a href="#skills" style="--l:4">Skills</a></li>
+                    <li><a href="#projects" style="--l:5">Projects</a></li>
+                    <li><a href="#contact" style="--l:6">Contact</a></li>
+                </ul>
+                <div class="dark">
+                    <i id="modeToggle" class="fa-solid fa-moon mode"></i>
+                </div>
+            </div>
+        </section>
+        <section class="home hidden" id="home">
+            <div class="container">
+                <div class="text">
+                    <h3>Hello , It's Me</h3>
+                    <h1>Hajer M.AbdElhai</h1>
+                    <h3>And , I'm a<span class="gradient-text"> Frontend Developer</span></h3>
+                    <p>I craft clean, responsive, and user-friendly web experiences.
+                        Passionate about turning ideas into interactive designs.</p>
+                    <div class="links">
+                        <a href="https://www.linkedin.com/in/hajer-mohamed-8857a5238/" style="--l:7"><i class="fa-brands fa-linkedin linked"></i></a>
+                        <a href="https://github.com/Hajer-Mohamed" style="--l:8"><i class="fa-brands fa-github linked"></i></a>
+                        <a href="mailto:hajermohamed303@gmail.com" style="--l:9"><i class="fa-solid fa-envelope"></i></a>
+                    </div>
+                    <a href="#about" class="btn-box">More About Me</a>
+                </div>
+                <div class="image">
+                    <img src="./images/me.png" >
+                </div>
+            </div>
+        </section>
+        <section class="about hidden" id="about">
+            <div class="container">
+                <div class="text">
+                    <h1>About <span>Me</span></h1>
+                    <p>I'm passionate Frontend Developer who loves creating clean, responsive, and user-friendly websites.
+                        I enjoy turning creative ideas into modern digital experiences that connect people and technology beautifully.
+                    </p>
+                </div>
+                <div class="data">
+                    <div class="journey">
+                        <h1>My Journey</h1>
+                        <p class="one">Over the past two years, I've developed projects using HTML, CSS, JavaScript, and frameworks like Bootstrap and Angular, turning my curiosity about web development into a true passion for creating modern, high-performing experiences.</p>
+                        <p class="two">I focus on building responsive, user-friendly websites and I'm currently learning React and other modern tools to add more interactivity and creativity to my work.</p>
+                        <div class="buttons">
+                            <a href="file:///C:/Users/HP/OneDrive/Pictures/Saved%20Pictures/MY-CV/hajer-cv.pdf" class="cv">Download My CV</a>
+                            <a href="#projects">View Projects</a>
+                        </div>
+                    </div>
+                    <div class="do">
+                        <div class="box">
+                            <div class="icon">
+                                <i class="fa-solid fa-code"></i>
+                            </div>
+                            <div class="text">
+                                <h3>Clean Code</h3>
+                                <p>Writing clean, maintainable, and efficient code following best practices.</p>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="icon">
+                                <i class="fa-solid fa-pen"></i>
+                            </div>
+                            <div class="text">
+                                <h3>Creative Design</h3>
+                                <p>Crafting elegant, modern user interfaces with attention to every detail</p>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="icon">
+                                <i class="fa-solid fa-chart-simple"></i>
+                            </div>
+                            <div class="text">
+                                <h3>Performance</h3>
+                                <p>Optimizing websites for speed, accessibility, and smooth user interactions</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="services hidden" id="services">
+            <div class="main-title">
+                <h1>My <span>Services</span></h1>
+                <p>Here's what I love to do — turning ideas into clean, creative, and responsive web experiences.</p>
+            </div>
+            <div class="container">
+                <div class="box">
+                    <div class="icon">
+                        <i class="fa-solid fa-palette"></i>
+                        <h3>Website Design</h3>
+                    </div>
+                    <div class="text">
+                        <p>I design modern and user-friendly websites from scratch, creating layouts that reflect your brand and deliver a smooth user experience.</p>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="icon">
+                        <i class="fa-solid fa-laptop-code"></i>
+                        <h3>Frontend Development</h3>
+                    </div>
+                    <div class="text">
+                        <p>I build responsive and high-performance websites using HTML, CSS, and JavaScript — transforming ideas into interactive digital products.</p>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="icon">
+                        <i class="fa-solid fa-mobile-screen-button"></i>
+                        <h3>Responsive Design</h3>
+                    </div>
+                    <div class="text">
+                        <p>I make sure your website looks perfect on all devices — ensuring fast performance and a seamless user experience across screens.</p>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="icon">
+                        <i class="fa-solid fa-wrench"></i>
+                        <h3>Maintenance & Updates</h3>
+                    </div>
+                    <div class="text">
+                        <p>I keep your website updated, fix issues, and improve performance to ensure everything runs smoothly and efficiently.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="skills hidden" id="skills">
+            <div class="main-title">
+                <h1>My <span>Skills</span></h1>
+                <p>A blend of creativity and clean code — here are the tools and technologies I use to bring ideas to life.</p>
+            </div>
+            <div class="container">
+                <div class="box">
+                    <h1 class="head">Technical Skills</h1>
+                    <div class="tech-bar">
+                        <div class="bar">
+                            <i style="color:#c95d2e" class="fa-brands fa-html5"></i>
+                            <div class="info">
+                                <span>HTML</span>
+                            </div>
+                            <div class="prog-line html">
+                                <span data-percent="100%"></span>
+                            </div>
+                        </div>
+
+                        <div class="bar">
+                                <i style="color:#147bbc" class="fa-brands fa-css3-alt"></i>                        <div class="info">
+                                <span>CSS</span>
+                            </div>
+                            <div class="prog-line css">
+                                <span data-percent="95%"></span>
+                            </div>
+                        </div>
+
+                        <div class="bar">
+                            <i style="color:#b0bc1e" class="fa-brands fa-square-js"></i>
+                            <div class="info">
+                                <span>JavaScript</span>
+                            </div>
+                            <div class="prog-line JavaScript">
+                                <span data-percent="80%"></span>
+                            </div>
+                        </div>
+
+                        <div class="bar">
+                            <i style="color:#6C19FF" class="fa-brands fa-bootstrap"></i>
+                            <div class="info">
+                                <span>BootStrap5</span>
+                            </div>
+                            <div class="prog-line BootStrap5">
+                                <span data-percent="90%"></span>
+                            </div>
+                        </div>
+
+                        <div class="bar">
+                            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="25" height="25" viewBox="0 0 48 48">
+                                <path fill="#00acc1" d="M24,9.604c-6.4,0-10.4,3.199-12,9.597c2.4-3.199,5.2-4.398,8.4-3.599 c1.826,0.456,3.131,1.781,4.576,3.247C27.328,21.236,30.051,24,36,24c6.4,0,10.4-3.199,12-9.598c-2.4,3.199-5.2,4.399-8.4,3.6 c-1.825-0.456-3.13-1.781-4.575-3.247C32.672,12.367,29.948,9.604,24,9.604L24,9.604z M12,24c-6.4,0-10.4,3.199-12,9.598 c2.4-3.199,5.2-4.399,8.4-3.599c1.825,0.457,3.13,1.781,4.575,3.246c2.353,2.388,5.077,5.152,11.025,5.152 c6.4,0,10.4-3.199,12-9.598c-2.4,3.199-5.2,4.399-8.4,3.599c-1.826-0.456-3.131-1.781-4.576-3.246C20.672,26.764,17.949,24,12,24 L12,24z"></path>
+                            </svg>
+                            <div class="info">
+                                <span>Tailwind CSS</span>
+                            </div>
+                            <div class="prog-line Tailwind">
+                                <span data-percent="60%"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="box">
+                    <h1 class="head">Professional Skills</h1>
+                    <div class="one">
+                        <div class="rad-bar">
+                        <div class="content">
+                            <svg x="0px" y="0px" viewBox="0 0 200 200">
+                                <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                                <circle class="path path-1" cx="100" cy="100" r="80"></circle>
+                            </svg>
+                            <div class="percentage">90%</div>
+                            <div class="text">Creativity</div>
+                        </div>
+                    </div>
+                    
+
+                    <div class="rad-bar">
+                        <div class="content">
+                            <svg x="0px" y="0px" viewBox="0 0 200 200">
+                                <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                                <circle class="path path-2" cx="100" cy="100" r="80"></circle>
+                            </svg>
+                            <div class="percentage">80%</div>
+                            <div class="text">Communication</div>
+                        </div>
+                    </div>
+
+                    <div class="rad-bar">
+                        <div class="content">
+                            <svg x="0px" y="0px" viewBox="0 0 200 200">
+                                <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                                <circle class="path path-3" cx="100" cy="100" r="80"></circle>
+                            </svg>
+                            <div class="percentage">75%</div>
+                            <div class="text">Problem Solving</div>
+                        </div>
+                    </div>
+
+                    <div class="rad-bar">
+                        <div class="content">
+                            <svg x="0px" y="0px" viewBox="0 0 200 200">
+                                <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                                <circle class="path path-4" cx="100" cy="100" r="80"></circle>
+                            </svg>
+                            <div class="percentage">85%</div>
+                            <div class="text">TeamWork</div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                <div class="box">
+                    <h1 class="head">Tools & Others</h1>
+                    <div class="tech-bar">
+                        <div class="bar">
+                            <i class="fa-brands fa-github"></i>
+                            <div class="info">
+                                <span>Git & Github</span>
+                            </div>
+                            <div class="prog-line git">
+                                <span data-percent="95%"></span>
+                            </div>
+                        </div>
+
+                        <div class="bar">
+                            <i class="fa-brands fa-figma"></i>
+                            <div class="info">
+                                <span>Figma</span>
+                            </div>
+                            <div class="prog-line figma">
+                                <span data-percent="78%"></span>
+                            </div>
+                        </div>
+
+                        <div class="bar">
+                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16" class="shadow-2xl shadow-[#4A90E2]" color="#4A90E2" height="30" width="30" xmlns="http://www.w3.org/2000/svg" style="color: rgb(74, 144, 226);">
+                                <path d="M10.8634 13.9195C10.6568 14.0195 10.4233 14.0246 10.2185 13.9444C10.1162 13.9044 10.021 13.843 9.93997 13.7614L4.81616 9.06268L2.58433 10.7656C2.37657 10.9241 2.08597 10.9111 1.89301 10.7347L1.17719 10.0802C0.941168 9.86437 0.940898 9.49112 1.17661 9.27496L3.11213 7.5L1.17661 5.72504C0.940898 5.50888 0.941168 5.13563 1.17719 4.91982L1.89301 4.2653C2.08597 4.08887 2.37657 4.07588 2.58433 4.2344L4.81616 5.93732L9.93997 1.23855C9.97037 1.20797 10.0028 1.18023 10.0368 1.15538C10.2748 0.981429 10.5922 0.949298 10.8634 1.08048L13.5399 2.37507C13.8212 2.5111 14 2.79721 14 3.11109V8H10.752V4.53356L6.86419 7.5L10.752 10.4664V8H14V11.8889C14 12.2028 13.8211 12.4889 13.5399 12.625L10.8634 13.9195Z"></path>
+                            </svg>
+                            <div class="info">
+                                <span>VS Code</span>
+                            </div>
+                            <div class="prog-line vs">
+                                <span data-percent="100%"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </section>
+        <section class="projects hidden" id="projects">
+            <div class="main-title">
+                <h1>My <span>Projects</span></h1>
+                <p>A showcase of my recent work and personal projects.</p>
+            </div>
+            <div class="container">
+                <div class="box">
+                    <div class="image">
+                        <img src="./images/recipe11.png" alt="recipe page">
+                        <div class="overlay">
+                            <a href="https://github.com/Hajer-Mohamed/recipe-page/tree/main/work" target="_blank">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="https://hajer-mohamed.github.io/recipe-page/" target="_blank">
+                                <i class="fas fa-share"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="text">
+                        <h3>Recipe Page</h3>
+                        <p>A simple and interactive recipe page built with HTML, CSS, and JavaScript. View detailed recipes, step-by-step instructions, and easily print your favorite dishes.</p>
+                        <div class="buttons">
+                            <button>HTML</button>
+                            <button>CSS</button>
+                            <button>JS</button>
+                            <button>Bootstrap</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="image">
+                        <img src="./images/rahal22.png" alt="Rahal website">
+                        <div class="overlay">
+                            <a href="https://github.com/mostafaabdoelgohary2003AI/Ra7al-Tourist-Website" target="_blank">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="https://ra7al-travel.netlify.app/" target="_blank">
+                                <i class="fas fa-share"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="text">
+                        <h3>Raحal Travel Website</h3>
+                        <p>An Egyptian travel website built with Angular, providing a comprehensive and user-friendly platform to explore destinations, attractions, accommodations, and tours.</p>
+                        <div class="buttons">
+                            <button>Angular</button>
+                            <button>HTML</button>
+                            <button>CSS</button>
+                            <button>JS</button>
+                            <button>Bootstrap</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="image">
+                        <img src="./images/monda-cafe.png" alt="recipe page">
+                        <div class="overlay">
+                            <a href="https://github.com/Hajer-Mohamed/Monda-Cafe" target="_blank">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="https://hajer-mohamed.github.io/Monda-Cafe/" target="_blank">
+                                <i class="fas fa-share"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="text">
+                        <h3>Monda Cafe</h3>
+                        <p>A modern and interactive website for Monda Cafe & Restaurant, showcasing the menu and providing an easy way for users to explore the restaurant's services.</p>
+                        <div class="buttons">
+                            <button>HTML</button>
+                            <button>CSS</button>
+                            <button>Font Awesome</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="image">
+                        <img src="./images/calculator.png" alt="recipe page">
+                        <div class="overlay">
+                            <a href="https://github.com/Hajer-Mohamed/Simple-Calcolator" target="_blank">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="https://hajer-mohamed.github.io/Simple-Calcolator/" target="_blank">
+                                <i class="fas fa-share"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="text">
+                        <h3>Simple Calculator</h3>
+                        <p>A simple and interactive recipe page built with HTML, CSS, and JavaScript. View detailed recipes, step-by-step instructions, and easily print your favorite dishes.</p>
+                        <div class="buttons">
+                            <button>HTML</button>
+                            <button>CSS</button>
+                            <button>JS</button>
+                            <button>Font Awesome</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="image">
+                        <img src="./images/kasper.png" alt="recipe page">
+                        <div class="overlay">
+                            <a href="https://github.com/Hajer-Mohamed/HTML-CSS-Elzero-template2" target="_blank">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="https://hajer-mohamed.github.io/HTML-CSS-Elzero-template2/" target="_blank">
+                                <i class="fas fa-share"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="text">
+                        <h3>HTML/CSS Practice Project</h3>
+                        <p>detailed HTML and CSS practice project focused on enhancing web design skills, creating layouts, styling elements, and building a responsive and clean interface.</p>
+                        <div class="buttons">
+                            <button>HTML</button>
+                            <button>CSS</button>
+                            <button>Font Awesome</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="image">
+                        <img src="./images/design3.png" alt="recipe page">
+                        <div class="overlay">
+                            <a href="https://github.com/Hajer-Mohamed/design-3-elzero" target="_blank">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="https://hajer-mohamed.github.io/design-3-elzero/" target="_blank">
+                                <i class="fas fa-share"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="text">
+                        <h3>HTML/CSS Practice Project</h3>
+                        <p>A detailed HTML and CSS practice project aimed at improving front-end skills, applying modern layouts, styling techniques, and responsive design for a polished user interface.</p>
+                        <div class="buttons">
+                            <button>HTML</button>
+                            <button>CSS</button>
+                            <button>Font Awesome</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="edu">
+            <div class="main-title">
+                <h1>Education</h1>
+            </div>
+                <div class="container">
+                    <div class="item">
+                        <h3>Bachelor in Computer Science</h3>
+                        <p><strong>Faculty of Computers and Artificial Intelligence</strong>, Damietta University</p>
+                        <p class="edu-duration"><i>2021 - 2025 | Damietta, Egypt</i></p>
+                        <ul>
+                            <li>Graduated with 3.29 GPA</li>
+                            <li>Active member in several university tech projects and competitions</li>
+                            <li>Graduation Project: <em>Echoes of the Past</em> — a tourism platform integrating AR, VR, and hologram technology</li>
+                        </ul>
+                    </div>
+                    <div class="item">
+                        <h3>Digital Egypt Pioneers Initiative (DEPI)</h3>
+                        <p>Frontend Track Training</p>
+                        <p class="edu-duration"><i>2024 | Mansourah, Egypt</i></p>
+                        <ul>
+                            <li>Trained on HTML, CSS, JavaScript, Bootstrap, and Angular framework</li>
+                            <li>Soft skills modules: communication, presentation, freelancing, and personal branding</li>
+                            <li>Final Project: <em>Rahal</em> — an Egyptian travel guide website</li>
+                        </ul>
+                    </div>
+                </div>
+        </section>
+        <section class="contact hidden" id="contact">
+            <div class="main-title">
+                <h1>Get In <span>Touch</span></h1>
+                <p>Feel free to reach out for collaborations, freelance work, or any professional inquiries.</p>
+            </div>
+            <div class="container">
+                <div class="box left">
+                    <div class="content">
+                        <p>I'm always open to discussing <span>new projects </span>, creative ideas, or opportunities to collaborate. Feel free to reach out anytime!</p>
+                        <ul class="contact-info">
+                            <li><a href="mailto:hajermohamed303@gmail.com"><i class="fa-solid fa-envelope mail"></i></a></li>
+                            <li><a href="https://www.linkedin.com/in/hajer-mohamed-8857a5238/"><i class="fa-brands fa-linkedin linked"></i></a></li>
+                            <li><a href="https://github.com/Hajer-Mohamed"><i class="fa-brands fa-github git"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <h1>Contact Form</h1>
+                    <form action="https://formspree.io/f/meovoqry" method="POST">
+                        <input type="text" name="name" class="input" placeholder="Your Name" required>
+                        <input type="email" name="email" class="input" placeholder="Your Email" required>
+                        <textarea name="message" class="input" placeholder="Your Message" required></textarea>
+                        <button class="submit input">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <footer class="footer">
+            <div class="container">
+                <a href="#top" aria-label="Back to top"><i class="fas fa-arrow-up"></i></a>
+                <p>© 2025 <span>Hajer Mohamed</span>. All rights reserved.</p>
+            </div>
+        </footer>
+        <script src="./main.js"></script>
+    </body>
+</html>
