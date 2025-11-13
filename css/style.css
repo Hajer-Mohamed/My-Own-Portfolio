@@ -73,11 +73,11 @@ a{
     -moz-transform:t ranslateY(50px);
     -ms-transform:t ranslateY(50px);
     -o-transform:t ranslateY(50px);
-    transition: opacity 1.5s ease , transform 1s ease;
-    -webkit-transition: opacity 1.5s ease , transform 1s ease;
-    -moz-transition: opacity 1.5s ease , transform 1s ease;
-    -ms-transition: opacity 1.5s ease , transform 1s ease;
-    -o-transition: opacity 1.5s ease , transform 1s ease;
+    transition: opacity 1s ease , transform 1s ease;
+    -webkit-transition: opacity 1s ease , transform 1s ease;
+    -moz-transition: opacity 1s ease , transform 1s ease;
+    -ms-transition: opacity 1s ease , transform 1s ease;
+    -o-transition: opacity 1s ease , transform 1s ease;
 }
 .show{
     opacity:1;
@@ -171,14 +171,16 @@ body.dark-mode .heading .toggle-menu{
         margin: -10px auto -10px;
     }
     .heading ul>li:not(:last-child){
-        border-bottom: 2px solid var(--border-color);
+        border-bottom: 2px solid #ddd;
         width: 100%;
         margin-bottom: 15px;
-
+    }
+    .heading ul > li:last-child:hover a::after{
+        display:none;
     }
     
 }
-ul li a.active {
+ul li a.active{
     font-weight: bold;
     border-bottom: 2px solid var(--dark-blue-color);
     transition: 0.3s;
@@ -349,7 +351,7 @@ body.dark-mode .home .links a{
 }
 .home .text .btn-box:hover{
     box-shadow: 0 0 5px var(--dark-pink-color),
-                0 0 25px var(--pink-color), 
+                0 0 25px var(--dark-pink-color), 
                 0 0 50px var(--dark-pink-color),
                 0 0 100px var(--dark-pink-color),
                 0 0 200px var(--dark-pink-color);
@@ -423,6 +425,12 @@ body.dark-mode .about h1 span{
 .about .data .journey h1{
     font-size: 40px;
     font-weight: bold;
+}
+.about .data .journey span{
+    color:var(--dark-blue-color);
+}
+body.dark-mode .about .data .journey span{
+    color: var(--dark-pink-color);
 }
 .about .data .journey .one,
 .about .data .journey .two{
@@ -661,8 +669,13 @@ body.dark-mode .skills .main-title h1 span{
 }
 .skills .container .box h1{
     text-align: center;
-    color: var(--dark-blue-color);
     font-weight: bold;
+}
+.skills .container .box h1 span{
+    color:var(--dark-blue-color);
+}
+body.dark-mode .skills .box h1 span{
+    color:var(--dark-pink-color);
 }
 .skills .container .box .tech-bar{
     font-size: 23px;
@@ -1009,7 +1022,7 @@ body.dark-mode .skills .main-title h1 span{
 }
 .projects .container .box .text .buttons button:hover{
     background-color: var(--pink-color);
-    box-shadow: 0 0 5px 7px var(--pink-color);
+    box-shadow: 0 0 3px 3px var(--pink-color);
 }
 .edu{
     padding-top:var(--general-padding-top);
@@ -1203,6 +1216,16 @@ body.dark-mode .footer{
     animation: upPulse 0.8s ease-in-out infinite;
     font-size: 23px;
     margin: 10px 0 20px;
+}
+body.dark-mode .footer a i{
+    color:var(--dark-pink-color);
+}
+body.dark-mode .footer a:hover {
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
 }
 .footer a:hover i{
     color: var(--dark-blue-color);
