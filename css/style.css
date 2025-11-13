@@ -956,11 +956,11 @@ body.dark-mode .skills .box h1 span{
     -o-transition: transform 0.3s ease;
 }
 .projects .container .box .image .overlay a:hover{
-    transform:scale(1.2);
-    -webkit-transform:scale(1.2);
-    -moz-transform:scale(1.2);
-    -ms-transform:scale(1.2);
-    -o-transform:scale(1.2);
+    transform:scale(1.1);
+    -webkit-transform:scale(1.1);
+    -moz-transform:scale(1.1);
+    -ms-transform:scale(1.1);
+    -o-transform:scale(1.1);
 }
 .projects .container .box:hover img{
     transform:scale(1.1);
@@ -1135,7 +1135,7 @@ body.dark-mode .edu .container .item p{
     padding: 23px;
 }
 .contact .container .box .content ul li i{
-    color: var(--text-color);
+    color: var(--dark-pink-color);
 }
 .contact .container .box .content ul a i.mail:hover{
     color:#ddd;
